@@ -11,7 +11,7 @@ const Header = () => {
         <Container>
           <Navbar.Brand>
             <NavLink
-              to="/"
+              to="/Home"
               className="text-decoration-none"
               style={{ color: "black", fontWeight: "500" }}
             >
