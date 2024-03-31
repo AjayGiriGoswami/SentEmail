@@ -25,7 +25,7 @@ const Home = () => {
         position: "top-center",
       });
     } else {
-      const res = await fetch("http://localhost:2500/register", {
+      const res = await fetch("https://sentemailbackend.onrender.com/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
